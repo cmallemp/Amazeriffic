@@ -5,19 +5,38 @@ header, main, footer {
  min-width: 855px;
 }
 
-header .container, main .container, footer .container {
+header .container, main .container {
  max-width: 855px;
  margin: auto;
 }
 
+footer  .contact {
+    overflow: hidden;
+    float: left;
+    margin: auto;
+}
+
+footer .sitemap {
+    overflow: hidden;
+    float: right;
+    margin: auto;
+}
 
 header {
  background: white;
+ overflow: auto;
 }
+
+header h1 {
+ float: left;
+ width: 570px;
+}
+header nav {
+ float: right;
+ width: 285px;
+}
+
 main {
  background: white;
 }
 
-header, main, footer {
- min-width: 855px;
-}
