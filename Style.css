@@ -10,13 +10,16 @@ header .container, main .container {
  margin: auto;
 }
 
+
 footer  .contact {
+    width: 285px;
     overflow: hidden;
     float: left;
     margin: auto;
 }
 
 footer .sitemap {
+    width: 570px;
     overflow: hidden;
     float: right;
     margin: auto;
